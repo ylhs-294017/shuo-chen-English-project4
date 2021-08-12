@@ -34,7 +34,7 @@ body
     float: right;
     text-align: left;
 }
-.navbar-toggler-icon
+.fa-bars
 {
     color: #fff;
     font-size: 30px !important;
@@ -168,7 +168,7 @@ i{
 {
     height: 60px;
     width: 60px;
-    board-radius: 50%;
+    border-radius: 50%;
     margin: 0 10px;
 }
 .user-details

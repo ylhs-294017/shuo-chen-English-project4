@@ -193,6 +193,7 @@ body
 {
     width: 60px;
     transition: 0.5s;
+    display:inline;
 
 }
 .social-icons a:hover img
@@ -202,7 +203,12 @@ body
 .icons
 {
     width: 30px;
-    display:inline-block;
+    display:inline;
+}
+.img
+{
+    width: 60px;
+    padding: none;
 }
 
 /*---------------footer section----------------*/

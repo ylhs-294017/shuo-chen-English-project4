@@ -73,7 +73,7 @@ body
 }
 .bottom-img
 {
-    width: 100%;
+    width: 100% ;
     padding: none;
 }
 /*---------------services section------------------*/
@@ -151,7 +151,7 @@ body
     margin-left: 20px;
 }
 
-/*-----------------------------testimonials section----------------------------------*/
+/*-----------------------------Staff section----------------------------------*/
 
 #testimonoals
 {
@@ -181,6 +181,7 @@ body
 {
     background: #f8f9fa;
     padding: 100px 0;
+
 }
 #social-media p
 {
@@ -192,10 +193,16 @@ body
 {
     width: 60px;
     transition: 0.5s;
+
 }
 .social-icons a:hover img
 {
     transform: translateY(-10px);
+}
+.icons
+{
+    width: 30px;
+    display:inline-block;
 }
 
 /*---------------footer section----------------*/

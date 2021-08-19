@@ -53,7 +53,7 @@ body
 {
     background-image: linear-gradient(to right, #174bba,#172782);
     color:#fff;
-    padding: O%;
+    padding: none;
 }
 .promo-title
 {
@@ -81,9 +81,14 @@ body
 {
  padding: 80px 0;
 }
+.imgae_services
+{
+    width: 300px;
+    padding: none;
+}
 .service-img
 {
-    width: 100x;
+    width: 30x;
     margin-top: 20px;
 }
 .services

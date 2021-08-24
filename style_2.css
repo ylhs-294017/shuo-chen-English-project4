@@ -76,10 +76,15 @@ body
     width: 100% ;
     padding: none;
 }
-/*---------------services section------------------*/
+/*---------------Policy section------------------*/
 #services
 {
  padding: 80px 0;
+}
+.imgae_Policy
+{
+    width: 300px;
+    padding: none;
 }
 .service-img
 {

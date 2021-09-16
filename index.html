@@ -9,7 +9,33 @@
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="icon" href="image\WeChat Image_20210818094601_adobespark.png">
 </head>
-<body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+    	$("#emailsub").click(function()
+                  {
+                    
+                    var email = $('#emailadd').val();
+                    console.log(email);
+                    
+                   
+                    $.ajax({
+                        url: 'https://SXC-Cgithubio.codingmindsrepo.repl.co/addEmail',
+                        data: "email="+email,
+                        type: 'get',
+                        success: function(data)
+                        {
+
+                        console.log(data);
+                        console.log("just send email");
+                        }
+                    });
+                    
+                  });
+      
+    </script>
+
+    <body>
+    
 <section id="nav-bar">
 
     <nav class="navbar navbar-expand-lg navbar-light ">
@@ -176,8 +202,8 @@
 </div>
 <div class="col-md-4 footer-box">
   <p><b>SUBSCRIBE US</b></p>
-  <input type="email" name="Email" class="form-control" placeholder="Your Email">
-  <button type="button" class="btn btn-primary">Subcribe</button>
+  <input type="email" name="Email" class="form-control" placeholder="Your Email" id="emailadd">
+  <button type="button" class="btn btn-primary" id="emailsub">Subcribe</button>
 
 </div>
 </div>
